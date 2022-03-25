@@ -36,16 +36,6 @@ const IndexPage: React.FunctionComponent = () => (
               <AppsIcon />
             </ListItemIcon>
             <ListItemText>
-              <Link href={Hrefs.union}>
-                <strong>Union catalog</strong> of collections
-              </Link>
-            </ListItemText>
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <AppsIcon />
-            </ListItemIcon>
-            <ListItemText>
               <Link href={Hrefs.worksheet}>
                 <strong>Worksheet</strong> for historic clothing artifacts using
                 visual workflows

@@ -58,9 +58,6 @@ export const Layout: React.FunctionComponent<{
               <Link className={classes.navLink} href={Hrefs.collections}>
                 Collections
               </Link>
-              <Link className={classes.navLink} href={Hrefs.union}>
-                Union catalog
-              </Link>
               <Link className={classes.navLink} href={Hrefs.worksheet}>
                 Worksheet
               </Link>
