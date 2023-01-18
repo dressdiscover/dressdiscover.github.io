@@ -10,7 +10,6 @@ import {
 } from "@material-ui/core";
 
 const COLLECTIONS = [
-  ["costumecoreontology", "Costume Core Ontology"],
   ["costumecoretemplate", "Costume Core Template"],
   ["iastate-amd354", "Iowa State University AMD 354 teaching resource"],
 ];
