@@ -15,8 +15,9 @@ jobs:
       - name: Export
         run: yarn export
       - name: Upload artifact
-        path: out
         uses: actions/upload-pages-artifact@v1
+        with:
+          path: out
   deploy:
     environment:
       name: github-pages
