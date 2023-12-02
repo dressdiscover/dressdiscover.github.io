@@ -1,5 +1,3 @@
-import * as React from "react";
-import {Layout} from "components/Layout";
 import {
   Grid,
   Link,
@@ -8,10 +6,12 @@ import {
   ListItemText,
   Typography,
 } from "@material-ui/core";
+import {Layout} from "components/Layout";
+import * as React from "react";
 
 const COLLECTIONS = [
   ["costumecoretemplate", "Costume Core Template"],
-  ["iastate-amd354", "Iowa State University AMD 354 teaching resource"],
+  // ["iastate-amd354", "Iowa State University AMD 354 teaching resource"],
 ];
 
 const CollectionsPage: React.FunctionComponent = () => (
@@ -23,7 +23,7 @@ const CollectionsPage: React.FunctionComponent = () => (
           {COLLECTIONS.map(([subdomain, label]) => (
             <ListItem key={subdomain}>
               <ListItemText>
-                <Link href={`https://${subdomain}.dressdiscover.org`}>
+                <Link href={`https://dressdiscover.github.io/${subdomain}/`}>
                   {label}
                 </Link>
               </ListItemText>

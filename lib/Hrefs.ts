@@ -3,10 +3,6 @@ export class Hrefs {
     return "/collections/";
   }
 
-  static get contact() {
-    return "mailto:info@dressdiscover.org";
-  }
-
   static get gitHub() {
     return "https://github.com/dressdiscover";
   }
@@ -15,11 +11,7 @@ export class Hrefs {
     return "/";
   }
 
-  static get union() {
-    return "https://union.dressdiscover.org";
-  }
-
   static get worksheet() {
-    return "https://worksheet.dressdiscover.org";
+    return "/worksheet/";
   }
 }

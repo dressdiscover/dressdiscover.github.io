@@ -1,4 +1,3 @@
-import * as React from "react";
 import {
   AppBar,
   Card,
@@ -11,6 +10,7 @@ import {
   Typography,
 } from "@material-ui/core";
 import {Hrefs} from "lib/Hrefs";
+import * as React from "react";
 
 const useStyles = makeStyles((theme) => ({
   brand: {
@@ -71,15 +71,6 @@ export const Layout: React.FunctionComponent<{
             ) : null}
             <CardContent>{children}</CardContent>
           </Card>
-        </Grid>
-        <Grid item>
-          <footer>
-            <p className={classes.footerParagraph}>
-              <Link href={Hrefs.contact}>Contact</Link>
-              &nbsp;|&nbsp;
-              <Link href={Hrefs.gitHub}>GitHub</Link>
-            </p>
-          </footer>
         </Grid>
       </Grid>
     </>
